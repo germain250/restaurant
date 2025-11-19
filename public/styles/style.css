@@ -1,0 +1,25 @@
+.menu-container{
+    margin:40px 20px;
+    background:#fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.menu-pricing{
+    display:flex;
+    justify-content:space-between;
+    margin:30px;
+    position:relative;
+   
+}
+.menu-listing ul li{
+    list-style:none;
+    position:relative;
+    margin-bottom:20px;
+}
+ .menu-card img{
+    height:21rem;
+    justify-content:space-between;
+    
+ }
+   
+
