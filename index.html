@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+   
 </head>
-<body>
+<body class="">
     <header>
 
     </header>
-    <main>
+    <main >
 
         <!-- Hero section -->
 
@@ -20,10 +24,78 @@
         <!-- Menu section -->   
 
         <!-- Contact -->
+         <!-- our Blog -->
+          <div>
+            <div class="text-center p-10">
+                <p style="color: red;">News & Insights</p>
+                <p style="font-size: 24px;">Restaurant Blog & Updates</p>
+            </div>
+<!-- food cards -->
+ <div class="grids grid-cols-4">
+    <div class="bg-black w-1/4 h-auto ml-12">
+        <div class="flex flex-col p-10 ">
+            <img src="/public/images/yummy.jpeg" alt="yummy food" class="w-48 h-48 ">
+            <p>November 17,2025</p>
+        </div>
+    </div>
+ </div>
+          </div>
 
     </main>
-    <footer>
+  <footer class="fixed bottom-0 relative bg-black w-full rounded-t-4xl">
 
-    </footer>
+    <!-- the image -->
+    <div class="absolute flex justify-center -top-28 md:-top-32 left-1/2 -translate-x-1/2 w-full">
+        <img src="./public/images/sushis.png"
+            alt=""
+            class="w-[200px] h-[200px] md:w-[260px] md:h-[260px] lg:w-[300px] lg:h-[300px] shadow-xl rounded-b-full">
+    </div>
+
+    <!-- main contents of the footer -->
+    <div class="text-white px-4 sm:px-6 md:px-12 lg:px-20 pt-40 sm:pt-44 md:pt-52">
+
+        
+        <div class="flex flex-row md:flex-col  justify-between gap-8 md:gap-6 items-center md:items-center">
+
+            <p class="text-lg sm:text-xl md:text-2xl font-semibold max-w-sm text-center md:text-left">
+                Timeless recipes to savor & enjoy
+            </p>
+
+            <p class="text-gray-300 text-center md:text-left text-sm sm:text-base">
+                Kigali, Gasabo
+            </p>
+
+            <div class="flex flex-col text-center md:text-left text-sm sm:text-base">
+                <a href="mailto:germainconnected@gmail.com" class="hover:text-orange-300 transition">
+                    germainconnected@gmail.com
+                </a>
+                <a href="tel:+250794381611" class="hover:text-orange-300 transition">
+                    +250 794381611
+                </a>
+            </div>
+        </div>
+
+        <hr class="border-white/30 my-8 sm:my-10">
+
+        <!-- bottom row with the copy rights -->
+        <div class="flex flex-row md:flex-col  p-12 justify-between items-center gap-4 sm:gap-6 px-0 sm:px-12">
+
+            <p class="text-xs sm:text-sm text-gray-400 text-center">
+                copyright &copy; design by MindDevs
+            </p>
+
+            <div class="flex gap-4 sm:gap-6 text-xs sm:text-sm text-gray-300">
+                <p class="hover:text-orange-300 transition cursor-pointer">PRIVACY POLICY</p>
+                <p class="hover:text-orange-300 transition cursor-pointer">CAREERS</p>
+                <p class="hover:text-orange-300 transition cursor-pointer">FAQs</p>
+            </div>
+        </div>
+
+    </div>
+
+</footer>
+
+
+
 </body>
 </html>
