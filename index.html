@@ -37,6 +37,8 @@
                     <button>Menu</button>
                     <button>Donate</button>
                 </div>
+                <div class="menu-toggle">&#9776;</div>
+
             </div>
         </nav>
     </header>
@@ -265,6 +267,16 @@
     </div>
 
 </section>
+
+<script>
+    const menu = document.querySelector(".links");
+    const toggle = document.querySelector(".menu-toggle");
+
+    toggle.onclick = () => {
+        menu.classList.toggle("show");
+    }
+</script>
+
 
 </body>
 </html>
