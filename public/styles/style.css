@@ -128,3 +128,81 @@ header{
 .here .image{
     
 }
+
+
+/* Menu styles */
+
+.menu-container{
+    margin-left:50%;
+}
+.menu-titles{
+    margin:5px;
+}
+.menu-titles h2{
+    color:#7c042cd5;
+    font-size:12px;
+}
+.menu-listing{
+    display:flex;
+    gap:40px;
+   
+}
+.menu-list{
+    display:flex;
+    justify-content:space-between;
+    margin-left:20px;
+}
+.menu-pricing{
+    gap:20px;
+    display:flex;
+}
+.menu-detail ul li{
+    list-style:none;
+    position:relative;
+    margin-bottom:20px;
+}
+ .menu-card img{
+    height:100%;
+    justify-content:space-between;
+    
+ }
+   
+
+.sea-container{
+    margin-left:50%;
+    background:#fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.sea-titles{
+    margin:5px;
+}
+.sea-titles h2{
+    color:#7c042cd5;
+    font-size:12px;
+}
+.seafood-listing{
+    display:flex;
+    gap:40px;
+   
+}
+.sea-list{
+    display:flex;
+    justify-content:space-between;
+    margin-right:10px;
+}
+.sea-pricing{
+    gap:20px;
+    display:flex;
+}
+.sea-detail ul li{
+    list-style:none;
+    position:relative;
+    margin-bottom:20px;
+}
+ .sea-img img{
+    height:100%;
+    width:15rem;
+    justify-content:space-between;
+    
+ }
