@@ -6,22 +6,21 @@
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
     color: #fff;
-    padding-top: 6rem; /* space for floating image */
-    padding-bottom: 2rem; /* tight bottom padding */
+    padding-top: 6rem;
+    padding-bottom: 2rem;
     box-sizing: border-box;
     text-align: center;
 }
 
-/* Floating image */
 .footer-image {
     position: absolute;
-    top: -150px; /* sits just above footer content */
+    top: -150px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
     justify-content: center;
     width: 100%;
-    pointer-events: none; /* ensures clicks pass through */
+    pointer-events: none;
 }
 
 .footer-image img {
@@ -31,15 +30,13 @@
     box-shadow: 0 8px 16px rgba(0,0,0,0.5);
 }
 
-/* Footer main content */
 .footer-content {
-    max-width: 1200px;
+    width: 80%;
     margin: 0 auto;
     padding: 0 1.5rem;
     box-sizing: border-box;
 }
 
-/* Top row */
 .footer-top {
     display: flex;
     flex-direction: column;
@@ -69,17 +66,15 @@
     transition: color 0.3s;
 }
 .footer-contact a:hover {
-    color: orange;
+    color: red;
 }
 
-/* Separator */
 .footer-hr {
     border: none;
     border-top: 1px solid rgba(255,255,255,0.3);
     margin: 1rem 0;
 }
 
-/* Bottom row */
 .footer-bottom {
     display: flex;
     flex-direction: column;
@@ -107,17 +102,10 @@
     transition: color 0.3s;
 }
 .footer-links p:hover {
-    color: orange;
+    color: red;
 }
 
-/* Logo styling */
-.logo h4 {
-    color: #fff;
-    font-size: 1.25rem;
-    margin: 0;
-}
 
-/* Responsive adjustments */
 @media (min-width: 768px) {
     .footer-image img {
         width: 220px;
