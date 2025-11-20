@@ -4,7 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RResto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="public/styles/style.css">
+    <link rel="stylesheet" href="/public/styles/footer.css">
+
 </head>
 
 <body>
@@ -14,25 +20,35 @@
         <nav class="nav">
             <div class="nav-container">
                 <div class="logo">
-                    <h4><span>R</span>Resto</h4>
+                    <h4><span class="span">R</span><span class="span1">Resto</span></h4>
                 </div>
 
                 <ul class="links">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#mission">Mission</a></li>
                     <li><a href="#menu">Menu</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li><a href="#Blog">Blog</a></li>
+
                 </ul>
 
                 <div class="cta">
                     <button>Menu</button>
                     <button>Donate</button>
                 </div>
+                <div class="menu-toggle">&#9776;</div>
+
             </div>
         </nav>
     </header>
+
+    <!-- End of navbar -->
+
+
+
     <!-- Hero section -->
+     <!-- The video section too -->
      
     <section class="hero">
         <video autoplay loop muted>
@@ -45,6 +61,17 @@
             <button>Book a Table</button>
         </div>
     </section>
+    <div class="image">
+        <img src="public/images/image.png" alt="">
+    </div>
+
+
+
+    <!-- About Section -->
+
+    
+
+    <!-- End of About Section -->
     <!--- about us section-->
 
     <!---food -category -->
@@ -88,63 +115,63 @@
     
 
 
-    <section class="menu">
-    <div class="menu-container">
-
-        <div class="menu-titles">
-            <h2>ASSORTED MENU</h2>
-            <h1>Famous Sushi's</h1>
+    <section class="menu" id="menu">
+                <div class="blog-top">
+            <p class="blog-category">Menu and pricing</p>
+            <p class="blog-title">Drinks and Food Available</p>
         </div>
+        <div class="menu-container">
+            <div class="menu-listing">
+                <div class="menu-detail">
+                    <div class="sea-titles">
+                        <h1>Chicken & Salad</h1>
+                    </div>
+                    <ul>
 
-        <div class="menu-listing">
-            <div class="menu-detail">
-                <ul>
+                        <li class="menu-list">
+                            <div>
+                                <span>Main Dishes</span><br>
+                                grilled chicken, chicken curry, spaghetti
+                            </div>
+                            <div class="menu-pricing">$51.75</div>
+                        </li>
+                        <hr>
 
-                    <li class="menu-list">
-                        <div>
-                            <span>Main Dishes</span><br>
-                            grilled chicken, chicken curry, spaghetti
-                        </div>
-                        <div class="menu-pricing">$51.75</div>
-                    </li>
-                    <hr>
+                        <li class="menu-list">
+                            <div>
+                                <span>Side Dishes</span><br>
+                                Chips (French fries)
+                            </div>
+                            <div class="menu-pricing">$51.75</div>
+                        </li>
+                        <hr>
 
-                    <li class="menu-list">
-                        <div>
-                            <span>Side Dishes</span><br>
-                            Chips (French fries)
-                        </div>
-                        <div class="menu-pricing">$51.75</div>
-                    </li>
-                    <hr>
+                        <li class="menu-list">
+                            <div>
+                                <span>Desserts</span><br>
+                                Fruit Salad, Ice cream, Cake slice
+                            </div>
+                            <div class="menu-pricing">$51.75</div>
+                        </li>
+                        <hr>
 
-                    <li class="menu-list">
-                        <div>
-                            <span>Desserts</span><br>
-                            Fruit Salad, Ice cream, Cake slice
-                        </div>
-                        <div class="menu-pricing">$51.75</div>
-                    </li>
-                    <hr>
+                        <li class="menu-list">
+                            <div>
+                                <span>Drinks</span><br>
+                                Water, Fresh Juice, Milkshake, Tea
+                            </div>
+                            <div class="menu-pricing">$51.70</div>
+                        </li>
+                        <hr>
 
-                    <li class="menu-list">
-                        <div>
-                            <span>Drinks</span><br>
-                            Water, Fresh Juice, Milkshake, Tea
-                        </div>
-                        <div class="menu-pricing">$51.70</div>
-                    </li>
-                    <hr>
+                    </ul>
+                </div>
 
-                </ul>
-            </div>
-
-            <div class="menu-card">
-                <img src="public/images/sushi.jpeg">
+                <div class="menu-card">
+                    <img src="public/images/sushi.jpeg">
+                </div>
             </div>
         </div>
-
-    </div>
 
     <div class="sea-container">
         <div class="seafood-listing">
@@ -199,10 +226,98 @@
                 </ul>
 
             </div>
+    </Section>
+    <!-- a section of blogs -->
+    <section id="Blog">
+    <div class="blog-container">
+        <div class="blog-top">
+            <p class="blog-category">News & Insights</p>
+            <p class="blog-title">Restaurant & Update</p>
+        </div>
+
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="/public/images/image.png" alt="">
+                <p class="blog-date">July 17, 2025</p>
+                <hr class="blog-underline">
+                <p class="blog-post">10 hacks for Home and Skycrapper</p>
+                <button>Read more</button>
+            </div>
+            <div class="blog-card">
+                <img src="/public/images/image.png" alt="">
+                <p class="blog-date">July 17, 2025</p>
+                <hr class="blog-underline">
+                <p class="blog-post">10 hacks for Home and Skycrapper</p>
+                <button>Read more</button>
+            </div>
+            <div class="blog-card">
+                <img src="/public/images/image.png" alt="">
+                <p class="blog-date">July 17, 2025</p>
+                <hr class="blog-underline">
+                <p class="blog-post">10 hacks for Home and Skycrapper</p>
+                <button>Read more</button>
+            </div>
+            <div class="blog-card">
+                <img src="/public/images/image.png" alt="">
+                <p class="blog-date">July 17, 2025</p>
+                <hr class="blog-underline">
+                <p class="blog-post">10 hacks for Home and Skycrapper</p>
+                <button>Read more</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="footer">
+
+    <!-- floating image -->
+    <div class="footer-image">
+        <!-- <img src="./public/images/sushis.png" alt="Resto Logo"> -->
+    </div>
+
+    <div class="footer-content">
+
+        <div class="footer-top">
+            <p class="footer-title">Timeless recipes to savor & enjoy</p>
+            <p class="footer-location">Kigali, Gasabo</p>
+            <div class="footer-contact">
+                <a href="mailto:germainconnected@gmail.com">germainconnected@gmail.com</a>
+                <a href="tel:+250794381611">+250 794381611</a>
+            </div>
+        </div>
+
+        <hr class="footer-hr">
+
+        <div class="footer-bottom">
+            <p class="footer-copy">&copy; Design by MindDevs</p>
+                <div class="logo">
+                    <h4><span class="span">R</span><span class="span1">Resto</span></h4>
+                </div>            <div class="footer-links">
+                <p>PRIVACY POLICY</p>
+                <p>CAREERS</p>
+                <p>FAQs</p>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
+
+
         </div>
     </div>
 
 </section>
+
+<script>
+    const menu = document.querySelector(".links");
+    const toggle = document.querySelector(".menu-toggle");
+
+    toggle.onclick = () => {
+        menu.classList.toggle("show");
+    }
+</script>
+
 
 </body>
 </html>
