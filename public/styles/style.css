@@ -141,6 +141,78 @@ header{
     position: relative;
     top: 60vh;
 }
+/* POPULAR CATEGORY */
+.food-category {
+    text-align: center;
+    padding: 50px 0;
+     background:#e7dac7;
+    
+     
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+   
+}
+
+
+.food-card {
+    background:#fff;
+    border-radius: 15px;
+    padding: 70px 20px 20px; 
+    text-align: center;
+    width: 250px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    position: relative;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.food-card img {
+    width: 120px;       
+    height: 120px;      
+    border-radius: 50%;
+    object-fit: cover;  
+    object-position: center; 
+    position: absolute;
+    top: -60px;         
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+
+
+
+
+.food-card h2, 
+.food-card p, 
+.food-card .menu-link {
+    margin-top: 40px;
+}
+
+.card-subtitle {
+    font-size: 13px;
+    color: #c49b63;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+
+.food-card h2 {
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.menu-link {
+    font-size: 14px;
+    text-decoration: none;
+    color: #c49b63;
+    font-weight: bold;
+}
+
 
 
 /* Menu styles */
